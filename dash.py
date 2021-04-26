@@ -1,9 +1,11 @@
+#https://austinlasseter.medium.com/how-to-deploy-a-simple-plotly-dash-app-to-heroku-622a2216eb73
+
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
 
 
-external_stylesheets = ['mystyle.css']
+external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 
 
