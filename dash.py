@@ -2,6 +2,8 @@
 #https://towardsdatascience.com/deploying-your-dash-app-to-heroku-the-magical-guide-39bd6a0c586c
 #https://www.youtube.com/watch?v=b-M2KQ6_bM4
 #https://blog.heroku.com/from-project-to-productionized-python
+#https://community.plotly.com/t/deploying-your-dash-app-to-heroku-the-magical-guide/46723
+
 
 import dash
 import dash_core_components as dcc
@@ -13,6 +15,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 
 app.layout = html.Div(children=[
     html.H1(children='IST Energy Monitor - Dashboard 2'),
@@ -42,4 +45,4 @@ html.Div(children='''
 ])
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
