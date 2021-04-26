@@ -1,5 +1,7 @@
 #https://austinlasseter.medium.com/how-to-deploy-a-simple-plotly-dash-app-to-heroku-622a2216eb73
 #https://towardsdatascience.com/deploying-your-dash-app-to-heroku-the-magical-guide-39bd6a0c586c
+#https://www.youtube.com/watch?v=b-M2KQ6_bM4
+#https://blog.heroku.com/from-project-to-productionized-python
 
 import dash
 import dash_core_components as dcc
