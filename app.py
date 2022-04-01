@@ -18,7 +18,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 app.layout = html.Div(children=[
-    html.H1(children='IST Energy Monitor - Dashboard 2'),
+    html.H1(children='IST Energy Monitor - Dashboard 1'),
 
 html.Div(children='''
         Visualization of total electricity consumption at IST over the last years
